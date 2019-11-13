@@ -17,8 +17,9 @@ setx -m LOGSTASH_HOME "D:\Development\Program Files\logstash-6.3.0"
 setx -m GITHUBDESKTOP_HOME "C:\Users\perennial\AppData\Local\GitHubDesktop"
 setx -m DOCKER_HOME "C:\Program Files\Docker\Docker"
 setx -m DOCKERDESKTOP_HOME "C:\ProgramData\DockerDesktop"
+setx -m TOMCAT_9 "D:\Development\Program Files\apache-tomcat-9.0.27"
+setx -m NODE_HOME "D:\Development\Program Files\nodejs"
 
-
-setx -m PATH "%PATH%;%ANT_HOME%\bin;%GITBASH_HOME%\cmd;%TORTOISEGIT_HOME%\bin;%INTELLIJIDEA_HOME%\bin;%MAVEN_HOME%\bin;%GRADLE_HOME%\bin;%JDK_8%\bin;%JDK_7%\bin;%ELASTICSEARCH_HOME%\bin;%MYSQL_HOME%\bin;%KIBANA_HOME%\bin;%LOGSTASH_HOME%\bin;%GITHUBDESKTOP_HOME%\bin;%DOCKER_HOME%\Resources\bin;%DOCKERDESKTOP_HOME%\version-bin;%MY_SCRIPTS_HOME%"
+setx -m PATH "%PATH%;%ANT_HOME%\bin;%GITBASH_HOME%\cmd;%TORTOISEGIT_HOME%\bin;%INTELLIJIDEA_HOME%\bin;%MAVEN_HOME%\bin;%GRADLE_HOME%\bin;%JDK_8%\bin;%JDK_7%\bin;%ELASTICSEARCH_HOME%\bin;%MYSQL_HOME%\bin;%KIBANA_HOME%\bin;%LOGSTASH_HOME%\bin;%GITHUBDESKTOP_HOME%\bin;%DOCKER_HOME%\Resources\bin;%DOCKERDESKTOP_HOME%\version-bin;%MY_SCRIPTS_HOME%;%NODE_HOME%"
 
 pause
