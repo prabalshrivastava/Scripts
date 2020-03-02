@@ -1,4 +1,4 @@
-setx -m CODEBASE "D:\Development\Workspaces\Intellijidea Workspace1\Project CCRM\"
+setx -m CODEBASE D:\Development\Workspaces\Intellijidea Workspace1\Project CCRM\
 
 D:
 

@@ -9,6 +9,6 @@ netsh interface ipv4 set address name="Wi-Fi" source=dhcp
 
 rem grab DNS settings automatically from a DHCP server instead
 rem netsh interface ipv4 set dnsservers name"YOUR INTERFACE NAME" source=dhcp
-netsh interface ipv4 set dnsservers name"Wi-Fi" source=dhcp
+netsh interface ipv4 set dnsservers name="Wi-Fi" source=dhcp
 
 pause
