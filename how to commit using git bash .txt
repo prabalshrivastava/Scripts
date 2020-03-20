@@ -1,0 +1,128 @@
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository
+$ git clone https://github.com/prabalshrivastava/translator.git
+Cloning into 'translator'...
+warning: You appear to have cloned an empty repository.
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository
+$ cd translator
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        translator/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        background.js
+        content.js
+        icon.png
+        icon_128.png
+        images/
+        manifest.json
+        options.html
+        options.js
+        popup.html
+        popup.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (master)
+$ git checkout -b translator-v1.0
+Switched to a new branch 'translator-v1.0'
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git add *
+warning: LF will be replaced by CRLF in manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in options.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in options.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in popup.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in popup.js.
+The file will have its original line endings in your working directory
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git comitt -m "first translator comitt"
+git: 'comitt' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git commit -m "first translator commit"
+[translator-v1.0 (root-commit) 3e4d94f] first translator commit
+ 10 files changed, 163 insertions(+)
+ create mode 100644 background.js
+ create mode 100644 content.js
+ create mode 100644 icon.png
+ create mode 100644 icon_128.png
+ create mode 100644 images/traversy-logo.png
+ create mode 100644 manifest.json
+ create mode 100644 options.html
+ create mode 100644 options.js
+ create mode 100644 popup.html
+ create mode 100644 popup.js
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git push
+fatal: The current branch translator-v1.0 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin translator-v1.0
+
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ ^C
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ ^C
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$  git push --set-upstream origin translator-v1.0
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (13/13), 19.64 KiB | 4.91 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0)
+To https://github.com/prabalshrivastava/translator.git
+ * [new branch]      translator-v1.0 -> translator-v1.0
+Branch 'translator-v1.0' set up to track remote branch 'translator-v1.0' from 'origin'.
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ git push
+Everything up-to-date
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ ^C
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
+$ ^C
+
+praba@LAPTOP-93A5N89N MINGW64 /d/development/Git Repository/translator (translator-v1.0)
