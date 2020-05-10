@@ -1,0 +1,12 @@
+git clone https://prabal_nium@bitbucket.org/instadevelopers/cards-partner-inward.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/cards-deploy.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/microservice-kickstarter.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/cards-processor.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/settlement-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/cards-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/wallet-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/authentication-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/expense-management.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/jpos-switch-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/customer-service.git
+git clone https://prabal_nium@bitbucket.org/instadevelopers/cards-ui.git
